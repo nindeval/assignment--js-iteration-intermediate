@@ -23,6 +23,7 @@ console.assert( hasComplements(6,  oddsArray) === true )
 console.assert( hasComplements(7, oddsArray) === false )
 console.assert( hasComplements(14, oddsArray) === true )
 console.assert( hasComplements(17, oddsArray) === false )
+//----------------------
 console.assert( hasComplements(7, anotherArray) === true )
 console.assert( hasComplements(9,  anotherArray) === false )
 console.assert( hasComplements(14, anotherArray) === true )
