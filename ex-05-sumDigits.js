@@ -13,8 +13,21 @@
  *    sumDigits(406) => 10
 */
 
+console.group('JS Iterations Week');
+  console.log('%cFunction: sumDigits', 'background-color: green; color: white')
+  console.groupCollapsed('Should return 6 from "123"');
+    console.assert(sumDigits(123) === 6)
+  console.groupEnd();
 
-console.assert( sumDigits(123) === 6 )
-console.assert( sumDigits(911) === 11 )
-console.assert( sumDigits(8040) === 12)
-console.assert( sumDigits(173220) === 15 )
+  console.groupCollapsed('Should return 11 from "911"');
+    console.assert(sumDigits(911) === 11)
+  console.groupEnd();
+
+  console.groupCollapsed('Should return 12 from "8040"');
+    console.assert(sumDigits(8040) === 12)
+  console.groupEnd();
+
+  console.groupCollapsed('Should return 15 from "173220"');
+    console.assert(sumDigits(173220) === 15)
+  console.groupEnd();
+console.groupEnd();
