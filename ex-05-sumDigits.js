@@ -1,17 +1,15 @@
-
-/** ! Adventure Mode !
+/**
+ * sumDigits()
  *
- * sumDigits() 
- *
- * Write a function called `sumDigits` that accepts a number
- * and returns a sum total of the value of the digits
+ *  Write a function called `sumDigits` that accepts a number
+ *  and returns a sum total of the value of the digits
  *
  *
  *  Examples:
  *    sumDigits(12) => 3
  *    sumDigits(1112) => 5
  *    sumDigits(406) => 10
-*/
+ **/
 
 
 console.assert( sumDigits(123) === 6 )

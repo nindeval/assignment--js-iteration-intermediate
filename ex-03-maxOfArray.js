@@ -1,8 +1,11 @@
+/**
+ * maxOfArray()
+ *
+ * Write a function maxOfArray() that takes an array of
+ * numbers as an argument and finds the highest number.
+ *
+**/
 
-// maxOfArray()
-
-// Write a function maxOfArray() that takes an array of
-// numbers as an argument and finds the highest number.
 
 
 console.assert(maxOfArray([2,7,3,4,21,0]) === 21)

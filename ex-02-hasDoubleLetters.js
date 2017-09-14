@@ -1,9 +1,7 @@
-
 /**
  * hasDoubleLetters()
  *
  * Write a function called `hasDoubleLetters` that takes a string as
- *
  *
 **/
 

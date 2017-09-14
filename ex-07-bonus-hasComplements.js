@@ -1,4 +1,3 @@
-
 /** ! Adventure Mode !
  *
  * hasComplements() *
@@ -10,7 +9,7 @@
  * target number , then the function should return `true`,
  * otherwise, the function should return `false`.
  *
-*/
+**/
 
 
 

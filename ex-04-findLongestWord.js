@@ -4,7 +4,7 @@
  * Write a function that takes a string of words and returns the longest word.
  * i.e. findLongestWord("a book full of dogs") should return "book"
  *
- */
+**/
 
 
 
