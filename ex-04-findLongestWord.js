@@ -6,9 +6,21 @@
  *
 **/
 
+console.group('JS Iterations Week');
+  console.log('%cFunction: findLongestWord', 'background-color: green; color: white')
+  console.groupCollapsed('Should return "baskets" from "I have baskets full of lemons"');
+    console.assert(findLongestWord('i have baskets full of lemons') === 'baskets')
+  console.groupEnd();
 
+  console.groupCollapsed('Should return "Alexander" from "Alexander shouldn’t talk anymore"');
+    console.assert(findLongestWord("Alexander shouldn't talk anymore") === 'Alexander')
+  console.groupEnd();
 
-console.assert(findLongestWord('i have baskets full of lemons') === 'baskets')
-console.assert(findLongestWord("Alexander shouldn't talk anymore") === 'Alexander')
-console.assert(findLongestWord("don't mess with Texas") === 'Texas')
-console.assert(findLongestWord('a time to act.') === 'time')
+  console.groupCollapsed('Should return "Texas" from "don’t mess with Texas"');
+    console.assert(findLongestWord("don't mess with Texas") === 'Texas')
+  console.groupEnd();
+
+  console.groupCollapsed('Should return "time" from "a time to act."');
+    console.assert(findLongestWord('a time to act.') === 'time')
+  console.groupEnd();
+console.groupEnd();
