@@ -6,6 +6,23 @@
  *
 */
 
+function sumPositives(arrNum){
+  let sumaHippies = 0
+
+  for(var i = 0; i < arrNum.length; i++){
+    // console.log(arrNum[i])
+    if(arrNum[i] > 0){
+      // console.log(arrNum[i])
+      sumaHippies += arrNum[i]
+    }
+  }
+  return sumaHippies
+}
+
+const ejercicio01 = sumPositives([-2, 3, -1, 4])
+console.log(ejercicio01)
+
+
 console.group('JS Iterations Week');
   console.log('%cFunction: sumPositives', 'background-color: green; color: white')
   console.groupCollapsed('Should return 12 in the next [3, -1, 4, 5, -3, -4] series');

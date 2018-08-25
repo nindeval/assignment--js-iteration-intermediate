@@ -6,6 +6,20 @@
  *
 **/
 
+function maxOfArray(arrNumbers){
+  var highestNumber = 0
+  // console.log(arrNumbers[0])
+
+  for(var i = 0; i < (arrNumbers.length); i++){
+    if(highestNumber > arrNumbers[i]){
+    } else {
+      highestNumber = arrNumbers[i]
+    }
+  }
+  return highestNumber
+}
+const ejercicio03 = maxOfArray ([1, 8, 23, 6, 9])
+console.log(ejercicio03)
 
 console.group('JS Iterations Week');
   console.log('%cFunction: maxOfArray', 'background-color: green; color: white')

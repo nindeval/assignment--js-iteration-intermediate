@@ -6,6 +6,35 @@
  *
 **/
 
+function findLongestWord(strOfWords){
+  var longestWordStr = ''
+  // console.log(strOfWords)
+  var strNosimb = ''
+  var separateWords = strOfWords.split(' ')
+
+  for(var i = 0; i < strOfWords.length; i++){
+    var noSpecialCharacter = strOfWords.replace("'", "")
+    // console.log(noSpecialCharacter)
+      strNosimb += noSpecialCharacter
+  }
+
+  for(var i = 0; i < noSpecialCharacter.length; i++){
+  // console.log(noSpecialCharacter[i])
+    var largoChar = noSpecialCharacter[i]
+    console.log(largoChar)
+
+    // if(longestWordStr.length > largoChar.length){
+    //   // longestWordStr = largoChar
+    //
+    // }
+
+  }
+  return longestWordStr
+}
+
+const ejercicio04 = findLongestWord("Alexander shouldn't talk anymore")
+// console.log(ejercicio04)
+
 console.group('JS Iterations Week');
   console.log('%cFunction: findLongestWord', 'background-color: green; color: white')
   console.groupCollapsed('Should return "baskets" from "I have baskets full of lemons"');

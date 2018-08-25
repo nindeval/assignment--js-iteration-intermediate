@@ -11,6 +11,25 @@
  *    sumDigits(406) => 10
  **/
 
+ function sumDigits(num){
+   let sumTotal = 0
+   let numInd = num.toString()
+   let sumSimpleNumber = numInd.split('')
+
+   // console.log(sumTotal);
+   // console.log(Num);
+
+   for(var i = 0; i < sumSimpleNumber.length; i++){
+    // console.log(sumSimpleNumber[i]);
+     sumTotal += parseInt(sumSimpleNumber[i])
+   }
+
+   return sumTotal
+ }
+
+ const ejercicio05 = sumDigits('911')
+ console.log(ejercicio05);
+
 console.group('JS Iterations Week');
   console.log('%cFunction: sumDigits', 'background-color: green; color: white')
   console.groupCollapsed('Should return 6 from "123"');
