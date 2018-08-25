@@ -90,3 +90,4 @@ console.assert( output2[5] === 't' )
 // => in other words, output3 should be ['b','u','r','r','i','t','o']
 
 ```
+# assignment--js-iteration-intermediate
